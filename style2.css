@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{ 
+    width: 100vw; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background:url('https://img.freepik.com/free-photo/back-school-decoration-with-pencils-calculator-space_23-2147662344.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696723200&semt=ais')no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.container{
+width: 700px;
+height: 350px;
+border-radius: 8px;
+box-shadow: 0px 0px 12px white;
+padding: 20px 40px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: start;
+justify-content: center;
+}
+.container h1{
+color:#d118d1;
+font-style: italic;
+font-weight: bolder;
+font-size: 38px;
+}
+.container .input-field{
+width: 100%;
+padding: 10px 30px;
+border-radius: 5px;
+background: black;
+color:white;
+}
+.input-field input{
+width: 69%;
+padding: 10px;
+background: transparent;
+border: none;
+outline: none;
+font-size: 16px;
+color:white;
+}
+.input-field button{
+width: 30%;
+padding: 10px 20px;
+background: rgb(228, 227, 227);
+border-radius: 5px;
+border: none;
+outline: none;
+font-size: 16px;
+font-weight: 750;
+transition: all ease 0.4s;
+}
+.input-field button:hover{
+     cursor: pointer; 
+     background:#d7ebf8; 
+     color: red;
+} 
+.container .action{ 
+    width: 100%;
+     display: flex; 
+     gap: 20px; 
+     align-items: center; 
+     justify-content: start;
+} 
+.container .action h2{ 
+    padding: 8px 15px; 
+    background: crimson; 
+    border-radius: 10px; 
+    font-size: 15px;
+}
